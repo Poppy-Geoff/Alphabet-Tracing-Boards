@@ -62,8 +62,8 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.275625,
-            "y": 0.6539509536784741,
+            "x": 0.4173505275498241,
+            "y": 0.5051020408163265,
             "uniqueID": "ed6847f8-ff2e-426d-9882-9595968bb00f",
             "ioValues": [
                 {
@@ -78,6 +78,115 @@
             "description": "Creates a new text sketch.",
             "fontFamily": "ANTON",
             "selectedFontIndex": 0
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.5580304806565064,
+            "y": 0.8265306122448979,
+            "uniqueID": "246bc7f2-871b-49eb-8608-861db4db26ad",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.5486518171160609,
+            "y": 0.5306122448979592,
+            "uniqueID": "f4d9fc99-fbe1-42d5-a288-fb2b3c979353",
+            "ioValues": [
+                {
+                    "name": "Font Size",
+                    "ioValue": 19
+                },
+                {
+                    "name": "Text",
+                    "ioValue": "Poppy's Shed"
+                }
+            ],
+            "description": "Creates a new text sketch.",
+            "fontFamily": "AGUAFINA",
+            "selectedFontIndex": 5
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.511137162954279,
+            "y": 0.3010204081632653,
+            "uniqueID": "ae720fb5-9fbe-4641-9bf2-4e74faa605d8",
+            "ioValues": [
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Alphabet-Tracing-Boards"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "Alphabet-Tracing-Boards"
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.7514654161781946,
+            "y": 0.6020408163265306,
+            "uniqueID": "0ee5ad9e-a38a-4625-86c9-a662b06eb7bb",
+            "ioValues": [],
+            "description": "Changes the color of the shape.",
+            "selectedColorIndex": 2
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.5486518171160609,
+            "y": 0.5306122448979592,
+            "uniqueID": "c5e3c0fe-38fd-4ca6-9ead-438753c675f6",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Alphabet-Tracing-Boards"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": null,
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Alphabet-Tracing-Boards"
         }
     ],
     "allConnectors": [],
